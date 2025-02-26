@@ -25,7 +25,7 @@ def getRoutes(request):
             'Endpoint': '/notes/create/',
             'method': 'POST',
             'body': {'body': ""},
-            'description': 'Creates new note with data sent in post request on the jenkins'
+            'description': 'Creates new note with data sent in post request'
         },
         {
             'Endpoint': '/notes/id/update/',
